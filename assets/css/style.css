@@ -1,0 +1,13 @@
+body {
+    background-image: url("../imgaes/tokyo-subway.jpg")
+}
+
+.game-title {
+    background: yellow;
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0px;
+    padding: 8px;
+    padding-right: 18px;
+    text-align: right;
+}
