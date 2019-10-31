@@ -1,6 +1,6 @@
 // Initialize game
 $(document).ready(function() {
-    var characters = {
+    var charObj = {
         "Go-Go": {
             name: "Go-Go",
             health: 120,
@@ -31,7 +31,17 @@ $(document).ready(function() {
         }
 
     };
-    console.log(characters);
-    var characters = $("#characters").val();
+    for (var key in charObj) {
+        console.log("key: " + key + "\n" + "value: " + charObj[key]);
+    }
+    console.log(charObj);
+    var charDiv = $("#character_choices");
 
+    $.each(charObj, function(key, character) {
+        charDiv.append("<div>" + "Name: " + character.name + "<div>");
+        charDiv.append("<div>" + "Health: " + character.health + "<div>");
+        charDiv.append("<div>" + "Attack: " + character.attack + "<div>");
+        charDiv.append("<div>" + "imageUrl: " + character.imageUrl + "<div>");
+        charDiv.append("<div>" + "Enemy Attack Back: " + character.enemyAttackBack + "<div>");
+    })
 });

@@ -2,12 +2,29 @@ body {
     background-image: url("../images/background.jpg");
 }
 
-.game-title {
-    background: rgb(255, 208, 0);
+#game-title {
     color: black;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin: 0px;
-    padding: 8px;
-    padding-right: 18px;
-    text-align: right;
+}
+
+h5 {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p {
+    color: white;
+}
+
+#attack {
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#restart {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#character_choices {
+    color: white;
 }
