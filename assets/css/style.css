@@ -28,3 +28,7 @@ p {
 #character_choices {
     color: white;
 }
+
+.defense {
+    background: rgba(255, 2, 2, 0.2);
+}
